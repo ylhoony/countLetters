@@ -1,5 +1,3 @@
-
-
 function countLetters(inputWords) {
   var noSpace = inputWords.split(' ').join();
   var noComma = noSpace.replace(/[,]/g,"");
@@ -19,8 +17,6 @@ function countLetters(inputWords) {
   }
 
  console.log(letterObj);
-
-
 }
 
 countLetters("lighthouse in the house");
